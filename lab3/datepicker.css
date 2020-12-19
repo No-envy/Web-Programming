@@ -1,0 +1,29 @@
+td#OtherMonth {
+     background: grey; 
+     color: white;
+}
+
+td#CurMonth {
+    background: grey;
+    cursor: pointer;
+}
+
+#LeftArrow, #RightArrow{
+    cursor: pointer;
+}
+
+table, th, td {
+    text-align: center;
+    background: grey;    
+    cursor: default;
+}
+td:hover {
+	background-color: black;
+	color: white;
+	transition-duration: 1s;
+}
+td#OtherMonth:hover {
+	background-color: black;
+	color: white;
+	transition-duration: 1s;
+}
