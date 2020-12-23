@@ -21,7 +21,7 @@ class DatePicker {
         var header = this._createCalenderHeader(table, date);
  
         // 3. add days of week on the second row
-        var daysOfWeek = ["Sun", "Mon","Tues","Wed","Thur","Fri","Sat"];
+        var daysOfWeek = ["Sun", "Mon","Tues","Wed","Thu","Fri","Sat"];
         var rowWeek = header.insertRow(1);
         for (var i = 0; i < 7; ++ i) {
             var cell = rowWeek.insertCell(i);
