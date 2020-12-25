@@ -1,0 +1,18 @@
+#context{
+    display: block;
+    position: absolute;
+    right: 7px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.my-header{
+    display: block;
+    padding: 15px;
+}
+
+
+#version{
+    display: block;
+    padding: 15px;
+}
